@@ -1,0 +1,17 @@
+# pin assignment for the KNJN Retro gamepad
+# https://www.knjn.com/images/Board_Retro.jpg
+# see also the Retro gamepad startupkit for an updated design with HDMI and paddle support
+# for other FPGA boards, please update this file or supply your own pin assignment file
+
+NET "clk" LOC=P88 | IOSTANDARD=LVCMOS33;
+NET "LED[0]" LOC=P50 | IOSTANDARD=LVCMOS33;
+NET "LED[1]" LOC=P31 | IOSTANDARD=LVCMOS33;
+
+NET "audioR" LOC="P15" | IOSTANDARD=LVCMOS33;
+NET "audioL" LOC="P13" | IOSTANDARD=LVCMOS33;
+
+NET "VGA_R" LOC=P73 | IOSTANDARD=LVCMOS33;
+NET "VGA_G" LOC=P70 | IOSTANDARD=LVCMOS33;
+NET "VGA_B" LOC=P62 | IOSTANDARD=LVCMOS33;
+NET "VGA_HS" LOC=P59 | IOSTANDARD=LVCMOS33;
+NET "VGA_VS" LOC=P57 | IOSTANDARD=LVCMOS33;
